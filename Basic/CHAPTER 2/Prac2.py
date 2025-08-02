@@ -1,0 +1,10 @@
+list = [];
+a = input("1 mark: ");
+list.append(int(a));
+b = input("2 mark: ");
+list.append(int(b));
+c = input("3 mark: ");
+list.append(int(c));
+print(list);
+list.sort();
+print(list);
